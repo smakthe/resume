@@ -15,7 +15,7 @@ const Contact = () => {
   return (
     <FooterContainer>
       <ContactContainer>
-        <Title>Contact</Title>
+        <Title>Contact Information</Title>
         <ContactInfo>
           <Icon>📞</Icon>
           <ContactText>+91-9163689800</ContactText>
@@ -26,7 +26,7 @@ const Contact = () => {
         </ContactInfo>
         <ContactInfo>
           <Icon>📍</Icon>
-          <ContactText>Bengaluru, KA, India</ContactText>
+          <ContactText>Bengaluru, Karnataka, India</ContactText>
         </ContactInfo>
         <SocialIconContainer>
           <SocialIcon target="_blank" url="https://github.com/smakthe" />

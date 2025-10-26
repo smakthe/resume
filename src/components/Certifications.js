@@ -13,24 +13,13 @@ const Certifications = () => {
       <CertificationListContainer className="certification-list">
         <CertificationList>
           <CertificationItem>
-            <a
-              href="https://cutshort.io/certificate/6270"
-              aria-label="Cutshort Certified JavaScript Basic"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Cutshort Certified JavaScript Basic
-            </a>
+            JavaScript: Understanding the Weird Parts
           </CertificationItem>
           <CertificationItem>
-            <a
-              href="https://cutshort.io/certificate/6269"
-              aria-label="Cutshort Certified Ruby Basic"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Cutshort Certified Ruby Basic
-            </a>
+            NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)
+          </CertificationItem>
+          <CertificationItem>
+            Docker Mastery: with Kubernetes +Swarm from a Docker Captain
           </CertificationItem>
         </CertificationList>
       </CertificationListContainer>
