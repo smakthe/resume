@@ -13,6 +13,25 @@ const Experience = () => (
   <ExperienceContainer>
     <Title>Experience</Title>
     <Job>
+      <JobTitle>Senior Software Engineer</JobTitle>
+      <Company>KamPao.in</Company>
+      <JobPeriod> 05/2024 - 12/2025 (Full Time)</JobPeriod>
+      <JobDescription>
+        <JobItem>
+          Designed the backend architecture of the web and mobile application using Ruby on Rails
+          to support an increased traffic of 250% due to new user acquisition and onboarding 
+        </JobItem>
+        <JobItem>
+          Spearheaded the database design and architecture to support the increased load 
+          ensuring high availability and low latency
+        </JobItem>
+        <JobItem>
+          Implemented a CI/CD pipeline using best DevOps practices to ensure quick and smooth releases
+          of new updates while ensuring 99.99% uptime
+        </JobItem>
+      </JobDescription>
+    </Job>
+    <Job>
       <JobTitle>Senior Software Engineer - Design Platform</JobTitle>
       <Company>Prolance Services Pvt Ltd</Company>
       <JobPeriod>12/2022 - 04/2024 (Full Time)</JobPeriod>
