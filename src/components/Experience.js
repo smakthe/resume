@@ -13,6 +13,25 @@ const Experience = () => (
   <ExperienceContainer>
     <Title>Experience</Title>
     <Job>
+      <JobTitle>Senior Software Engineer</JobTitle>
+      <Company>KamPao.in</Company>
+      <JobPeriod> 05/2024 - 12/2025 (Full Time)</JobPeriod>
+      <JobDescription>
+        <JobItem>
+          Designed the backend architecture of the web and mobile application using Node.js with Express.js
+          to support an increased traffic of 250% due to new user acquisition and onboarding 
+        </JobItem>
+        <JobItem>
+          Spearheaded the database design and architecture to support the increased load 
+          ensuring high availability and low latency
+        </JobItem>
+        <JobItem>
+          Implemented a CI/CD pipeline using best DevOps practices to ensure quick and smooth releases
+          of new updates while ensuring 99.99% uptime
+        </JobItem>
+      </JobDescription>
+    </Job>
+    <Job>
       <JobTitle>Senior Software Engineer - Design Platform</JobTitle>
       <Company>Prolance Services Pvt Ltd</Company>
       <JobPeriod>12/2022 - 04/2024 (Full Time)</JobPeriod>
@@ -45,7 +64,7 @@ const Experience = () => (
       <JobPeriod>05/2021 - 08/2022 (Full Time)</JobPeriod>
       <JobDescription>
         <JobItem>
-          Developed RESTful APIs using Ruby on Rails for EdTech platform serving 
+          Developed RESTful APIs using Node.js with Express.js for EdTech platform serving 
           50K+ special needs students, improving learning outcome tracking by 35% 
           and reducing teacher reporting time by 70%
         </JobItem>
@@ -93,7 +112,7 @@ const Experience = () => (
       <JobPeriod>05/2019 - 04/2020 (Full Time)</JobPeriod>
       <JobDescription>
         <JobItem>
-          Architected waste management SaaS platform using Ruby on Rails and 
+          Architected waste management SaaS platform using MERN stack and 
           Elasticsearch, serving 200+ businesses and optimizing route efficiency 
           by 25%, saving $1.2M in operational costs annually
         </JobItem>

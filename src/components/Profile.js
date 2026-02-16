@@ -15,13 +15,13 @@ const Profile = () => (
       </Title>
       <Description>
         <p>
-          Senior Software Engineer with 7+ years architecting scalable SaaS applications 
+          Senior Software Engineer with 8+ years architecting scalable SaaS applications 
           serving 10K-10M users across finance, e-commerce, and home automation domains. 
-          Specialized in Ruby on Rails, AWS cloud infrastructure, and microservices architecture, 
-          with proven track record of reducing system latency by 40-67% and driving $1M+ revenue impact. 
+          Specialized in MERN stack, AWS cloud infrastructure and microservices architecture, 
+          with proven track record of reducing system latency by 40-60% and driving $1M+ revenue impact. 
           Led cross-functional teams of 5+ engineers while mentoring junior developers and implementing 
           DevOps best practices using Docker, Kubernetes, and CI/CD pipelines. 
-          Expertise in full-stack development with React.js, PostgreSQL, and Redis, delivering 
+          Expertise in database technologies like PostgreSQL and Redis, delivering 
           enterprise solutions with 99.9% uptime and 85% cost optimization.
         </p>
       </Description>
