@@ -1,12 +1,13 @@
+import React from 'react';
 import {
   CertificationsContainer,
   Title,
   CertificationItem,
   CertificationList,
   CertificationListContainer,
-} from "../styles/components/CertificationsStyles";
+} from '../styles/components/CertificationsStyles';
 
-const Certifications = () => {
+const Certifications = (): React.JSX.Element => {
   return (
     <CertificationsContainer>
       <Title>Certifications</Title>

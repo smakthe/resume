@@ -23,3 +23,5 @@ export const darkTheme = {
     small: '768px',
   }
 };
+
+export type Theme = typeof lightTheme;

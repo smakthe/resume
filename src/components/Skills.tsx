@@ -1,11 +1,12 @@
+import React from 'react';
 import {
   SkillsContainer,
   Title,
   SkillList,
   SkillItem,
-} from "../styles/components/SkillsStyles";
+} from '../styles/components/SkillsStyles';
 
-const Skills = () => (
+const Skills = (): React.JSX.Element => (
   <SkillsContainer>
     <Title>Skills</Title>
     <SkillList>

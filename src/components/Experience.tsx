@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   ExperienceContainer,
   Title,
@@ -7,9 +8,9 @@ import {
   Company,
   JobPeriod,
   JobItem,
-} from "../styles/components/ExperienceStyles";
+} from '../styles/components/ExperienceStyles';
 
-const Experience = () => (
+const Experience = (): React.JSX.Element => (
   <ExperienceContainer>
     <Title>Experience</Title>
     <Job>

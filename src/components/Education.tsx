@@ -1,12 +1,13 @@
+import React from 'react';
 import {
   EducationContainer,
   Title,
   School,
   SchoolName,
   Degree,
-} from "../styles/components/EducationStyles";
+} from '../styles/components/EducationStyles';
 
-const Education = () => (
+const Education = (): React.JSX.Element => (
   <EducationContainer>
     <Title>Education</Title>
     <School>

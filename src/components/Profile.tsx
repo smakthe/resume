@@ -1,12 +1,13 @@
+import React from 'react';
 import {
   ProfileContainer,
   ProfileDetails,
   Name,
   Title,
   Description,
-} from "../styles/components/ProfileStyles";
+} from '../styles/components/ProfileStyles';
 
-const Profile = () => (
+const Profile = (): React.JSX.Element => (
   <ProfileContainer className="profile">
     <ProfileDetails>
       <Name>Somak Chakraborty</Name>

@@ -17,6 +17,16 @@ export const Title = styled.h2`
 export const ContactText = styled.span`
   font-size: 16px;
 
+  a {
+    color: ${({ theme }) => theme.textColor};
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: ${({ theme }) => theme.hoverColor};
+    }
+  }
+
   @media (max-width: ${({ theme }) => theme.mediaQueries.small}) {
     font-size: 14px;
   }
@@ -42,4 +52,15 @@ export const SocialIconContainer = styled.div`
   display: flex;
   gap: 10px;
   margin-top: 10px;
+
+  a {
+    color: ${({ theme }) => theme.textColor};
+    transition: color 0.2s ease;
+    display: inline-flex;
+
+    &:hover {
+      color: ${({ theme }) => theme.hoverColor};
+    }
+  }
 `;
+

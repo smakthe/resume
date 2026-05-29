@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# Somak Chakraborty — Resume Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A personal resume website built with React, TypeScript, Vite, and styled-components.
+
+🔗 **Live:** [somak-resume.vercel.app](https://somak-resume.vercel.app)
+
+## Prerequisites
+
+- [Bun](https://bun.sh/) (v1.0+)
+
+## Getting Started
+
+### Install dependencies
+
+```bash
+bun install
+```
+
+### Start development server
+
+```bash
+bun run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser. The page will hot-reload when you make changes.
+
+### Build for production
+
+```bash
+bun run build
+```
+
+Outputs optimized, pre-compressed (gzip + Brotli) assets to the `dist/` directory.
+
+### Preview production build
+
+```bash
+bun run preview
+```
+
+Serves the production build locally at [http://localhost:4173](http://localhost:4173).
 
 ## Available Scripts
 
-In the project directory, you can run:
+| Script | Command | Description |
+|--------|---------|-------------|
+| `dev` | `bun run dev` | Start development server with HMR |
+| `build` | `bun run build` | Type-check and build for production |
+| `preview` | `bun run preview` | Preview the production build locally |
+| `lint` | `bun run lint` | Run ESLint on the codebase |
+| `format` | `bun run format` | Format code with Prettier |
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Runtime:** [Bun](https://bun.sh/)
+- **Build Tool:** [Vite](https://vite.dev/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **UI Library:** [React 18](https://react.dev/)
+- **Styling:** [styled-components](https://styled-components.com/)
+- **Linting:** [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/)
+- **Deployment:** [Vercel](https://vercel.com/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Structure
 
-### `npm test`
+```
+├── public/              # Static assets (favicon, icons, OG image)
+├── src/
+│   ├── components/      # React components (Profile, Contact, etc.)
+│   ├── styles/
+│   │   ├── components/  # Styled-component definitions per section
+│   │   ├── GlobalStyles.ts
+│   │   ├── shared.ts
+│   │   └── theme.ts     # Light and dark theme definitions
+│   ├── App.tsx           # Root component with theme provider
+│   └── main.tsx          # Application entry point
+├── index.html            # HTML template
+├── vite.config.ts        # Vite configuration
+├── tsconfig.json         # TypeScript configuration
+├── eslint.config.js      # ESLint configuration
+└── .prettierrc           # Prettier configuration
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deployment
 
-### `npm run build`
+This project is configured for deployment on Vercel.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Setting | Value |
+|---------|-------|
+| **Build Command** | `bun run build` |
+| **Output Directory** | `dist` |
+| **Install Command** | `bun install` |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is private and not licensed for redistribution.

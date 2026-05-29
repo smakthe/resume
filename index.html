@@ -2,16 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Somak Chakraborty's Resume - Senior Software Engineer" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://somak-resume.vercel.app" />
     <meta property="og:title" content="Somak Chakraborty Resume" />
     <meta property="og:description" content="Full-stack web development, AWS, CI/CD, and more." />
-    <meta property="og:image" content="link_to_image.png" />
+    <meta property="og:image" content="https://somak-resume.vercel.app/og-image.png" />
 
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://somak-resume.vercel.app" />
+
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    <link rel="manifest" href="/manifest.json" />
     <title>Somak's Resume</title>
   </head>
   <body>
@@ -29,6 +36,7 @@
         },
         "url": "https://somak-resume.vercel.app"
       }
-    </script>      
+    </script>
+    <script type="module" src="/src/main.tsx" fetchpriority="high"></script>
   </body>
 </html>
